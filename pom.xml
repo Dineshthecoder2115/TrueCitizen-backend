@@ -29,6 +29,15 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<build>
+    <sourceDirectory>FixMyStreet/src/main/java</sourceDirectory>
+
+    <resources>
+        <resource>
+            <directory>FixMyStreet/src/main/resources</directory>
+        </resource>
+    </resources>
+</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
